@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitcoinArbitrage", "BitcoinArbitrage\BitcoinArbitrage.csproj", "{5E675C19-2E6B-4FF0-897F-82BB608D46AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExecutorApp", "ExecutorApp\ExecutorApp.csproj", "{5C12592F-B90E-4A22-AFA5-FF6BB83EB7F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E675C19-2E6B-4FF0-897F-82BB608D46AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E675C19-2E6B-4FF0-897F-82BB608D46AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E675C19-2E6B-4FF0-897F-82BB608D46AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E675C19-2E6B-4FF0-897F-82BB608D46AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C12592F-B90E-4A22-AFA5-FF6BB83EB7F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C12592F-B90E-4A22-AFA5-FF6BB83EB7F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C12592F-B90E-4A22-AFA5-FF6BB83EB7F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C12592F-B90E-4A22-AFA5-FF6BB83EB7F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C65405E4-61A7-476B-B6BC-5C174A7B249D}
+	EndGlobalSection
+EndGlobal
