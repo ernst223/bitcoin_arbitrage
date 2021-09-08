@@ -1,0 +1,10 @@
+
+*.cache
+
+BitcoinArbitrage/.vs/BitcoinArbitrage/DesignTimeBuild/
+
+BitcoinArbitrage/.vs/BitcoinArbitrage/v15/
+
+*.dll
+
+BitcoinArbitrage/ExecutorApp/obj/project.assets.json

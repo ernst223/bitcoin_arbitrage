@@ -23,15 +23,15 @@ namespace ExecutorApp
 
             Console.WriteLine("Fetching Exchange Data...");
             // string exchangeResult = await getRequest("http://data.fixer.io/api/latest?access_key=b76b6d51b65a6627ae850776179a779e&format=1");
-            string exchangeResult = await getRequest("https://api.exchangeratesapi.io/latest?base=EUR");
+            //string exchangeResult = await getRequest("https://api.exchangeratesapi.io/latest?base=EUR");
+            string exchangeResult = await getRequest("http://api.exchangeratesapi.io/v1/latest?access_key=6730765c40fcd4060764c46655b0b0c8");
 
             var tempKraken = JObject.Parse(krakenResult)["result"]["XXBTZEUR"]["a"];
-            var myKraken = Convert.ToDouble(JArray.Parse(tempKraken.ToString())[0].ToString().Replace(',','.'));
+            var myKraken = Convert.ToDouble(JArray.Parse(tempKraken.ToString())[0].ToString().Replace('.',','));
 
-            var myLuno = Convert.ToDouble(JObject.Parse(lunoResult)["bid"].ToString().Replace(',', '.'));
+            var myLuno = Convert.ToDouble(JObject.Parse(lunoResult)["bid"].ToString().Replace('.', ','));
 
-            //var myExchange = Convert.ToDouble(JObject.Parse(exchangeResult)["rates"]["ZAR"].ToString().Replace(',', '.'));
-            var myExchange = Convert.ToDouble(JObject.Parse(exchangeResult)["rates"]["ZAR"].ToString().Replace(',', '.'));
+            var myExchange = Convert.ToDouble(JObject.Parse(exchangeResult)["rates"]["ZAR"].ToString().Replace('.', ','));
 
             Console.WriteLine("Calculating...");
             Executioner executioner = new Executioner(myLuno, myKraken, myExchange);

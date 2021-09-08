@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\Development\\Side\\BitcoinArbitrage\\BitcoinArbitrage\\ExecutorApp\\ExecutorApp.csproj": {}
+    "C:\\Users\\ernst\\Documents\\Development\\bitcoin_arbitrage\\BitcoinArbitrage\\ExecutorApp\\ExecutorApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\Development\\Side\\BitcoinArbitrage\\BitcoinArbitrage\\BitcoinArbitrage\\BitcoinArbitrage.csproj": {
+    "C:\\Users\\ernst\\Documents\\Development\\bitcoin_arbitrage\\BitcoinArbitrage\\BitcoinArbitrage\\BitcoinArbitrage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\Development\\Side\\BitcoinArbitrage\\BitcoinArbitrage\\BitcoinArbitrage\\BitcoinArbitrage.csproj",
+        "projectUniqueName": "C:\\Users\\ernst\\Documents\\Development\\bitcoin_arbitrage\\BitcoinArbitrage\\BitcoinArbitrage\\BitcoinArbitrage.csproj",
         "projectName": "BitcoinArbitrage",
-        "projectPath": "C:\\Users\\User\\Documents\\Development\\Side\\BitcoinArbitrage\\BitcoinArbitrage\\BitcoinArbitrage\\BitcoinArbitrage.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\Development\\Side\\BitcoinArbitrage\\BitcoinArbitrage\\BitcoinArbitrage\\obj\\",
+        "projectPath": "C:\\Users\\ernst\\Documents\\Development\\bitcoin_arbitrage\\BitcoinArbitrage\\BitcoinArbitrage\\BitcoinArbitrage.csproj",
+        "packagesPath": "C:\\Users\\ernst\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ernst\\Documents\\Development\\bitcoin_arbitrage\\BitcoinArbitrage\\BitcoinArbitrage\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ernst\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,6 +29,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -40,6 +41,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "MySql.Data.EntityFrameworkCore": {
               "target": "Package",
@@ -68,24 +70,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\Documents\\Development\\Side\\BitcoinArbitrage\\BitcoinArbitrage\\ExecutorApp\\ExecutorApp.csproj": {
+    "C:\\Users\\ernst\\Documents\\Development\\bitcoin_arbitrage\\BitcoinArbitrage\\ExecutorApp\\ExecutorApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\Development\\Side\\BitcoinArbitrage\\BitcoinArbitrage\\ExecutorApp\\ExecutorApp.csproj",
+        "projectUniqueName": "C:\\Users\\ernst\\Documents\\Development\\bitcoin_arbitrage\\BitcoinArbitrage\\ExecutorApp\\ExecutorApp.csproj",
         "projectName": "ExecutorApp",
-        "projectPath": "C:\\Users\\User\\Documents\\Development\\Side\\BitcoinArbitrage\\BitcoinArbitrage\\ExecutorApp\\ExecutorApp.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\Development\\Side\\BitcoinArbitrage\\BitcoinArbitrage\\ExecutorApp\\obj\\",
+        "projectPath": "C:\\Users\\ernst\\Documents\\Development\\bitcoin_arbitrage\\BitcoinArbitrage\\ExecutorApp\\ExecutorApp.csproj",
+        "packagesPath": "C:\\Users\\ernst\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ernst\\Documents\\Development\\bitcoin_arbitrage\\BitcoinArbitrage\\ExecutorApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ernst\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -97,9 +99,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\User\\Documents\\Development\\Side\\BitcoinArbitrage\\BitcoinArbitrage\\BitcoinArbitrage\\BitcoinArbitrage.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\Development\\Side\\BitcoinArbitrage\\BitcoinArbitrage\\BitcoinArbitrage\\BitcoinArbitrage.csproj"
+              "C:\\Users\\ernst\\Documents\\Development\\bitcoin_arbitrage\\BitcoinArbitrage\\BitcoinArbitrage\\BitcoinArbitrage.csproj": {
+                "projectPath": "C:\\Users\\ernst\\Documents\\Development\\bitcoin_arbitrage\\BitcoinArbitrage\\BitcoinArbitrage\\BitcoinArbitrage.csproj"
               }
             }
           }
@@ -112,6 +115,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Newtonsoft.Json": {
               "target": "Package",
@@ -129,14 +133,11 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
